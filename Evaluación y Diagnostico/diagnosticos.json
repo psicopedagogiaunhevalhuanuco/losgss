@@ -1,0 +1,50 @@
+{
+    "Z55.0 Problemas relacionados con el analfabetismo o bajo nivel de instrucción": {
+        "concepto": "Se refiere a los problemas relacionados con el analfabetismo o bajo nivel de instrucción. Este código se utiliza para identificar situaciones en las que una persona enfrenta dificultades debido a la incapacidad para leer y escribir (analfabetismo) o a tener un nivel educativo inferior al necesario para desenvolverse adecuadamente en la sociedad.",
+        "indicadores": [
+            "No prsesentan indicadores específicos de diagnóstico"
+        ]
+    },
+    "Z55.1 Problemas relacionados con la educación no disponible o inaccesible": {
+        "concepto": "Este código se utiliza para identificar situaciones en las que una persona enfrenta dificultades debido a la falta de acceso a la educación, ya sea porque no hay instituciones educativas disponibles en su área o porque existen barreras que impiden su acceso. Estas barreras pueden incluir factores socioeconómicos, geográficos, culturales o políticos que limitan la capacidad de una persona para recibir una educación adecuada.",
+        "indicadores": [
+            "No prsesentan indicadores específicos de diagnóstico"
+        ]
+    },
+    "Z55.3 Problemas relacionados con el bajo rendimiento escolar": {
+        "concepto": "Este código se utiliza para identificar situaciones en las que una persona experimenta dificultades para alcanzar y mantener un rendimiento académico acorde a sus capacidades cognitivas. Estas dificultades pueden reflejar una discrepancia entre el potencial del estudiante y su rendimiento actual, sin que necesariamente haya una causa orgánica o un trastorno psiquiátrico diagnosticado. Los problemas de bajo rendimiento escolar pueden deberse a diversos factores, como dificultades de concentración, falta de interés en las actividades escolares, problemas emocionales o conductuales, y un ambiente de estudio inadecuado",
+        "indicadores": [
+            "No prsesentan indicadores específicos de diagnóstico"
+        ]
+    },
+    "Z55.2 Problemas relacionados con la falla en los exámenes": {
+        "concepto": "Este código se utiliza para identificar situaciones en las que una persona enfrenta dificultades debido a no cumplir con los estándares o expectativas en evaluaciones educativas, como los exámenes académicos.",
+        "indicadores": [
+            "No prsesentan indicadores específicos de diagnóstico"
+        ]
+    },
+    "Z55.4 Problemas relacionados con la inadaptación educacional y desavenencias con maestros y compañeros": {
+        "concepto": "Este código se utiliza para identificar situaciones en las que una persona enfrenta dificultades para adaptarse al entorno educativo, así como conflictos o desavenencias con maestros y compañeros. Estas dificultades pueden manifestarse como problemas de comportamiento, aislamiento social, bajo rendimiento académico y estrés emocional.",
+        "indicadores": [
+            "No prsesentan indicadores específicos de diagnóstico"
+        ]
+    },
+    "F810 Trastorno especifico de la lectura": {
+        "concepto": "Su característica principal es un deterioro específico y significativo del desarrollo de las habilidades de la lectura, que no puede ser atribuido exclusivamente a la edad mental, problemas de agudeza visual o una enseñanza inadecuada. Pueden alterarse la habilidad para comprender la lectura, la capacidad para reconocer palabras escritas (mediante la lectura), la habilidad para la lectura oral y el desempeño de tareas que requieren lectura. Con el trastorno específico de la lectura se asocian con frecuencia dificultades en la ortografía, las cuales subsisten a menudo hasta la adolescencia, incluso después de haberse realizado algún progreso en la lectura. Los trastornos específicos del desarrollo de la lectura son precedidos generalmente por una historia de trastornos del desarrollo del habla o del lenguaje. Son frecuentes las perturbaciones emocionales y de la conducta concomitantes, durante la edad escolar.",
+        "indicadores": [
+            "No atribuible exclusivamente a la edad mental, problemas de agudeza visual o enseñanza inadecuada.", "Alteraciones en la habilidad para comprender la lectura.", "Alteraciones en la capacidad para reconocer palabras escritas.", "Alteraciones en la habilidad para la lectura oral.","Alteraciones en el desempeño de tareas que requieren lectura.","Dificultades en la ortografía, persistentes hasta la adolescencia.","Historia de trastornos del desarrollo del habla o del lenguaje.","Perturbaciones emocionales y de conducta durante la edad escolar."
+        ]
+    },
+    "F811 Trastorno específico del deletreo [ortografía]": {
+        "concepto": "Este es un trastorno cuya característica principal es un deterioro específico y significativo del desarrollo de las habilidades para deletrear, en ausencia de una historia de trastorno específico de la lectura. El trastorno no es exclusivamente atribuible a una baja edad mental, problemas de agudeza visual o una enseñanza inadecuada. Se halla afectada la habilidad para deletrear y para escribir correctamente cada palabra.",
+        "indicadores": [
+            "Deterioro específico y significativo del desarrollo de las habilidades para deletrear.","Ausencia de una historia de trastorno específico de la lectura.","No atribuible exclusivamente a la edad mental, problemas de agudeza visual o enseñanza inadecuada.","Afectación de la habilidad para deletrear.","Afectación de la habilidad para escribir correctamente cada palabra."
+        ]  
+    },
+    "F812 Trastorno especifico de las habilidades aritméticas": {
+        "concepto": "Este es un trastorno cuya característica principal es un deterioro específico y significativo del desarrollo de las habilidades para deletrear, en ausencia de una historia de trastorno específico de la lectura. El trastorno no es exclusivamente atribuible a una baja edad mental, problemas de agudeza visual o una enseñanza inadecuada. Se halla afectada la habilidad para deletrear y para escribir correctamente cada palabra.",
+        "indicadores": [
+            ""
+        ]
+    }
+}

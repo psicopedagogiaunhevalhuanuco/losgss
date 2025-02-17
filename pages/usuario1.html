@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Atenciones - Usuario 1</title>
+    <link rel="stylesheet" href="../css/atenciones.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6"></script> <!-- Aquí se incluye Fuse.js desde el CDN -->
+</head>
+<body>
+    <div class="sidebar">
+        <img src="../images/usuario1.jpg" alt="Usuario 1" class="user-image">
+        <ul>
+            <li class="active"><a href="#">Registrar Intervención</a></li>
+            <li><a href="#">Registro de Intervenciones</a></li>
+            <li><a href="#">Registro de Expedientes</a></li>
+            <li><a href="#">Cerrar Sesión</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="atenciones-container" id="atenciones-container">
+            <h2><u>Datos del Estudiante</u></h2>
+            <form id="atencionesForm">
+                <input type="text" id="nombres" placeholder="Nombres y Apellidos" required>
+                <select id="facultad" required>
+                    <option value="" disabled selected>Seleccione Facultad</option>
+                    <option value="Ciencias Sociales">Ciencias Sociales</option>
+                    <option value="Medicina">Medicina</option>
+                    <option value="Medicina Veterinaria y Zootecnia">Medicina Veterinaria y Zootecnia</option>
+                    <option value="Ciencias Agrarias">Ciencias Agrarias</option>
+                    <option value="Psicología">Psicología</option>
+                    <option value="Obstetricia">Obstetricia</option>
+                    <option value="Ciencias Administrativas y Turismo">Ciencias Administrativas y Turismo</option>
+                    <option value="Economía">Economía</option>
+                    <option value="Ingeniería Civil y Arquitectura">Ingeniería Civil y Arquitectura</option>
+                    <option value="Ingeniería Industrial y de Sistemas">Ingeniería Industrial y de Sistemas</option>
+                    <option value="Ciencias Contables y Financieras">Ciencias Contables y Financieras</option>
+                    <option value="Ciencias de la Educación">Ciencias de la Educación</option>
+                    <option value="Enfermería">Enfermería</option>
+                    <option value="Derecho y Ciencias Políticas">Derecho y Ciencias Políticas</option>
+                </select>
+                <select id="carrera" required>
+                    <option value="" disabled selected>Seleccione Carrera Profesional</option>
+                    <!-- Las opciones de carrera se actualizarán dinámicamente -->
+                </select>
+                <input type="date" id="fecha" required>
+                <button type="submit">Iniciar Intervención</button>
+            </form>
+            <p id="message"></p>
+        </div>
+
+        <div class="evaluacion-container" id="evaluacion-container" style="display: none;">
+            <button class="decorative-button">Evaluación y Diagnóstico</button>
+            <h3><u>Evaluación</u></h3>
+            <form id="evaluacionForm">
+                <select id="problema" required>
+                    <option value="" disabled selected>Seleccione Problema Observado</option>
+                    <option value="dificultades-aprendizaje">Dificultades para el Aprendizaje</option>
+                    <option value="problemas-aprendizaje">Problemas de Aprendizaje</option>
+                    <option value="estado-socioemocional">Estado Socioemocional</option>
+                </select>
+                <select id="instrumento" required>
+                    <option value="" disabled selected>Seleccione Instrumento de Evaluación</option>
+                    <!-- Las opciones de instrumentos se actualizarán dinámicamente -->
+                </select>
+                <button id="descargar" title="Descargar">
+                    <i class="fas fa-download"></i>
+                </button>
+                <p id="descripcion" class="descripcion-con-borde"></p>
+            </form>
+            <h3><u>Indicadores</u></h3>
+            <div class="indicadores-wrapper">
+                <input type="text" id="buscador" placeholder="Buscar...">
+                <select id="elementos" multiple size="5" class="indicadores-lista">
+                    <!-- Los elementos se actualizarán dinámicamente -->
+                </select>
+                <div class="indicadores-seleccionados" id="indicadores-seleccionados">
+                    <!-- Aquí aparecerán los indicadores seleccionados -->
+                </div>
+            </div>
+
+            <h3 class="subtitulo-centrado">Diagnóstico Psicopedagógico</h3>
+            <div class="diagnostico-wrapper">
+                <div class="diagnostico-container" id="diagnostico-definitivo">
+                    <h4>Diagnóstico Presuntivo</h4>
+                    <!-- Contenido del diagnóstico definitivo -->
+                </div>
+                <div class="diagnostico-container" id="diagnostico-diferenciado">
+                    <h4>Diagnóstico Diferenciado</h4>
+                    <!-- Contenido del diagnóstico diferenciado -->
+                </div>
+            </div>
+            <div class="diagnostico-container" id="cuadro-diagnostico">
+                <h4><u>Cuadro Diagnóstico</u></h4>
+                <!-- Contenido del cuadro diagnóstico -->
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="../js/atenciones.js"></script>
+    <script src="../js/evaluacion.js"></script>
+</body>
+</html>

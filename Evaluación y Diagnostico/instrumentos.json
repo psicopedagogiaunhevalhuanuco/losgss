@@ -1,0 +1,58 @@
+{
+    "dificultades-aprendizaje": [
+        {
+            "nombre": "CASM - 85",
+            "descripcion": "El CASM-85 evalúa cinco dimensiones de los hábitos de estudio:\n1) La forma de organizarse para estudiar.\n2) Las estrategias utilizadas para resolver tareas.\n3) La forma de prepararse ante un examen.\n4) La manera en cómo el estudiante escucha la clase.\n5) La forma en cómo estudia en casa.\nSe les conoce como hábitos positivos cuando éstos contribuyen al aprendizaje y, en consecuencia, a un buen rendimiento académico. El CASM-85 está graduado de forma que mayores puntajes reflejan hábitos más positivos.",
+            "archivo": "dificultades-aprendizaje/CASM - 85.rar"
+        },
+        {
+            "nombre": "CASM 83 R91",
+            "descripcion": "El CASM 83 R91 (Inventario de Intereses Vocacionales y Ocupacionales) es una herramienta de evaluación psicológica diseñada para explorar las preferencias profesionales y ocupacionales de los individuos. Este inventario ayuda a identificar los intereses vocacionales y proporciona información valiosa para la toma de decisiones relacionadas con el futuro profesional.",
+            "archivo": "dificultades-aprendizaje/CASM 83 R91.rar"
+        },
+        {
+            "nombre": "CHTE",
+            "descripcion": "El Cuestionario CHTE tiene como finalidad un diagnóstico individual y grupal de una serie de aspectos que inciden en la tarea del estudio, se trata de recoger una información sobre los-as alumnos-as en sus hábitos y técnicas de estudio, la cual, puede facilitar el pronóstico de la posible influencia de esos hábitos y técnicas en las tareas de aprendizaje y el diseño y ejecución de un programa de intervención con los-as alumnos-as, para modificar aquellos aspectos que pueden influir negativamente en el estudio o para reforzar aquellos otros que actúan de forma positiva.",
+            "archivo": "dificultades-aprendizaje/CHTE.rar"
+        }
+    ],
+    "problemas-aprendizaje": [
+        {
+            "nombre": "CASM - 85",
+            "descripcion": "El CASM-85 evalúa cinco dimensiones de los hábitos de estudio:\n1) La forma de organizarse para estudiar.\n2) Las estrategias utilizadas para resolver tareas.\n3) La forma de prepararse ante un examen.\n4) La manera en cómo el estudiante escucha la clase.\n5) La forma en cómo estudia en casa.\nSe les conoce como hábitos positivos cuando éstos contribuyen al aprendizaje y, en consecuencia, a un buen rendimiento académico. El CASM-85 está graduado de forma que mayores puntajes reflejan hábitos más positivos.",
+            "archivo": "problemas-aprendizaje/CASM - 85.rar"
+        },
+        {
+            "nombre": "COMPRENSION VERBAL TOKEN",
+            "descripcion": "El Test de Comprensión Verbal de Token es una prueba diseñada para evaluar la comprensión auditiva y la capacidad de procesamiento del lenguaje en individuos. Este test es particularmente útil para identificar dificultades en la comprensión del lenguaje hablado y se utiliza en diversos contextos, incluyendo la evaluación de problemas de aprendizaje y trastornos del lenguaje.",
+            "archivo": "problemas-aprendizaje/COMPRENSION VERBAL TOKEN.rar"
+        },
+        {
+            "nombre": "NEUROPSI",
+            "descripcion": "El NEUROPSI (Evaluación Neuropsicológica Breve) es una prueba diseñada para evaluar el funcionamiento cognitivo en adultos hispanohablantes. Este instrumento es útil para detectar alteraciones cognitivas en diversos entornos clínicos y de investigación neuropsicológica. Evalúa un amplio espectro de funciones cognitivas.",
+            "archivo": "problemas-aprendizaje/NEUROPSI.rar"
+        },
+        {
+            "nombre": "THVA",
+            "descripcion": "El THVA (Test de Habilidades Verbales para Adolescentes) es una prueba diseñada para evaluar diversas habilidades verbales en adolescentes, pero también puede ser útil para estudiantes universitarios. El THVA consta de 75 ítems divididos en cuatro subtests, con uno de ellos presentado de forma oral y los otros tres de forma escrita. Este test puede aplicarse de manera individual o colectiva y es útil para identificar áreas de fortaleza y debilidad en las habilidades verbales de los estudiantes.",
+            "archivo": "problemas-aprendizaje/THVA.rar"
+        },
+        {
+            "nombre": "CHTE",
+            "descripcion": "El Cuestionario CHTE tiene como finalidad un diagnóstico individual y grupal de una serie de aspectos que inciden en la tarea del estudio, se trata de recoger una información sobre los-as alumnos-as en sus hábitos y técnicas de estudio, la cual, puede facilitar el pronóstico de la posible influencia de esos hábitos y técnicas en las tareas de aprendizaje y el diseño y ejecución de un programa de intervención con los-as alumnos-as, para modificar aquellos aspectos que pueden influir negativamente en el estudio o para reforzar aquellos otros que actúan de forma positiva.",
+            "archivo": "dificultades-aprendizaje/CHTE.rar"
+        }
+    ],
+    "estado-socioemocional": [
+        {
+            "nombre": "STAI",
+            "descripcion": "El STAI (State-Trait Anxiety Inventory), también conocido como Inventario de Ansiedad Estado-Rasgo, es una herramienta ampliamente utilizada para medir la ansiedad en individuos. Fue desarrollado por Charles D. Spielberger y sus colegas. Este test evalúa dos dimensiones principales de la ansiedad.",
+            "archivo": "dificultades-aprendizaje/STAI.rar"
+        },
+        {
+            "nombre": "ZUNG",
+            "descripcion": "El Zung Self-Rating Anxiety Scale (SAS) y el Zung Self-Rating Depression Scale (SDS) son dos instrumentos desarrollados por el Dr. William W.K. Zung para evaluar la ansiedad y la depresión, respectivamente. Ambas escalas son autoadministradas y proporcionan una medida rápida y sencilla del nivel de ansiedad y depresión, lo que puede ser útil para la detección temprana y el seguimiento de estos trastornos en diversos contextos, incluyendo el ámbito educativo y clínico.",
+            "archivo": "dificultades-aprendizaje/ZUNG.rar"
+        }
+    ]
+}

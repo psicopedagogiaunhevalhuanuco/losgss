@@ -1,0 +1,40 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Diagnósticos Psicopedagógicos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6"></script> 
+</head>
+<body>
+    <header>
+        <h1>Sistema de Diagnósticos Psicopedagógicos</h1>
+    </header>
+
+    <div class="container">
+        <section class="search-section">
+            <input type="text" class="search-input" placeholder="Buscar indicadores..." id="searchInput">
+            <div class="indicators-container" id="indicatorsContainer"></div>
+        </section>
+        <section class="diagnostic-section">
+            <h2>Cuadro Diagnóstico</h2>
+            <div id="diagnosticDetail"></div>
+        </section>
+
+        <div class="diagnostics-grid">
+            <section class="diagnostic-section">
+                <h2>Diagnósticos Diferenciados</h2>
+                <div id="differentialDiagnostics"></div>
+            </section>
+
+            <section class="diagnostic-section">
+                <h2>Diagnóstico Final</h2>
+                <div id="finalDiagnostic"></div>
+            </section>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

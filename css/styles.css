@@ -1,0 +1,42 @@
+body {
+    background-image: url('images/fondo.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Cambiado de center a flex-end */
+    height: 100vh;
+    margin: 0;
+    padding-bottom: 10px; /* Añadido para dar un poco de espacio desde el borde inferior */
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-container input {
+    display: block;
+    width: 115%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 125%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+}
